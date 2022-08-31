@@ -1,0 +1,16 @@
+.card-body{
+    border-radius: 15px;
+    border-color: brown;
+    border-style: groove;
+}
+
+#titulo, #descripcion{
+    border-radius: 10px;
+    border-color: rgb(93, 66, 66);
+    border-width: 3px;
+    margin: 3px;
+}
+
+.card{
+    border-style: none;
+}

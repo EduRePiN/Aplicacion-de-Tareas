@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación de Tareas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <a href="#" class="navbar-brand">Aplicación de Tareas</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row pt-2">
+            <div class="col-10">
+                <div class="card">
+                    <div class="card-body">
+                        <form id="tarea">
+                            <div class="form-group">
+                                <input type="text" id="titulo" placeholder="Título" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <textarea id="descripcion" rows="8" cols="80" class="form-control" placeholder="Descripción"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                Guardar
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-10 pt-2">
+            <div id="tareas">
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
